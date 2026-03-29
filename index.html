@@ -3,15 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <link rel="icon" type="image/png" href="./assets/images/global/logo_sTxt.png">
+    <link rel="stylesheet" href="./assets/css/pages/index/index.css">
+    <title> Camboinhas </title>
 </head>
 <body>
-    <header> </header>
-    <nav> </nav>
-    <aside> </aside>
+    <header> 
+        <nav>
+            <!-- Logotipo -->
+            <div> 
+                <img id="logo_index" src="./assets/images/global/logo_cTxt_sFundo.png">
+            </div>
+            <!-- Botões -->
+            <ul>
+                <li>
+                    <img src="https://img.icons8.com/?size=100&id=w0wAxnBWQKQs&format=png&color=000000" alt="">
+                    <h1><a href="#home">Favoritos</a></h1>
+                </li>
+                <li>
+                    <img src="https://img.icons8.com/?size=100&id=4u1fNdrE8XrP&format=png&color=000000" alt="">
+                    <h1><a href="#languages">PT-BR</a></h1>
+                </li>
+                <li>
+                    <img src="https://img.icons8.com/?size=100&id=mSvnHHcrMwmz&format=png&color=000000" alt="">
+                    <h1><a href="#login">Fazer Login</a></h1>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <br>
     <main>
+        <section>
+            <h1>Encontre o destino perfeito para sua próxima estadia</h1>
+            <h2>Hóteis, pousadas e resorts</h2>
+            <br>
+            <!-- Seleção Data/Grupo p/Pacote -->
+            <section>
+                <img src="https://img.icons8.com/?size=100&id=TQPOC8XaUqZ0&format=png&color=000000" alt="">
+                <p>Destino</p>
+                <select></select>
+            </section>
+            <section>
+                <img src="https://img.icons8.com/?size=100&id=tIy8o4gPXjoa&format=png&color=000000" alt="">
 
+                <label for="Check-in">Check-in</label>
+                <input id="date" type="date" name="Check-in" min="2026-03-28" max="2029-12-30"/>
+
+                <label for="Check-out">Check-out</label>
+                <input id="date" type="date" name="Check-in" min="2026-03-28" max="2029-12-30"/>
+            </section>
+            <section>
+                <img src="https://img.icons8.com/?size=100&id=lgQafIGzVYoE&format=png&color=000000" alt="">
+                <p>Hóspedes e quartos</p>
+                <select></select>
+            </section>
+        </section>
+
+        <!-- Sugestões -->
+        <section>
+            <div>
+                <h1>Sugestões</h1>
+                <p>Veja mais</p>
+            </div>
+            <section>
+                <div class="card">
+                    <img src="./assets/images/pages/index/umbrella-pool.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Pousada Bellars</b></h4>
+                            <p>Refice, Pernambuco</p>
+                            <p>Excelente, (2344)</p>
+                            <div>
+                                <button>Conferir preços</button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </section>
     </main>
+
     <footer>
         
     </footer>
